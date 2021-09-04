@@ -1,0 +1,21 @@
+#Pythonと外部ライブラリ
+#ソースコードを実行するには、下記のソフトウェアが必要です。
+NumPy
+Matplotlib
+
+
+#1.仮想環境作成
+#python3 -m venv  [任意の仮想環境名]
+#今回はdeeplearnin0env
+
+#2.仮想環境実行(ここだけ、macとwindowsで異なるので注意)
+
+#Windowsの場合は、
+#$ [任意の仮想環境名]\Scripts\activate
+
+#Linux, Macの場合は、
+#$ source   [任意の仮想環境名]/bin/activate
+
+#3.各種パッケージのインストール
+
+#pip3 install -r requirements.txt
